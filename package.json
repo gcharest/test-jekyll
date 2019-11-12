@@ -1,0 +1,26 @@
+{
+  "name": "test-jekyll",
+  "version": "1.0.0",
+  "description": "This is a test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint -i node_modules -i _site -i _includes \"**/*.md\"",
+    "test": "npm run lint && npm audit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcharest/test-jekyll.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Guillaume Charest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcharest/test-jekyll/issues"
+  },
+  "homepage": "https://github.com/gcharest/test-jekyll#readme",
+  "dependencies": {
+    "markdownlint-cli": "^0.19.0"
+  }
+}
